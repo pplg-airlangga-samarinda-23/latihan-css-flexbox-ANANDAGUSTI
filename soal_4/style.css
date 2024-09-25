@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.masonry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    width: 960px; 
+    height: 960px; 
+    overflow: hidden; 
+    border: 1px solid #ccc;
+}
+
+.grid-item {
+    background-color: #727b81;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 0 21%; 
+    box-sizing: border-box;
+}
+
+.grid-item:nth-child(2),
+.grid-item:nth-child(4),
+.grid-item:nth-child(6) {
+    flex-basis: 30%;
+}

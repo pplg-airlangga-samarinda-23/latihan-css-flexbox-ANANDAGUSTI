@@ -1,0 +1,21 @@
+/* style.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.child {
+    background-color: #0064f1;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+}
